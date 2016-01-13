@@ -1,0 +1,27 @@
+.image-box-plugin{
+	position:fixed;
+	top:0px;
+	left:0px;
+	text-align: center;
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index:999;
+	display: none;
+}
+.image-box-plugin img{
+	width: auto;
+	max-width: 80%;
+	margin:0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.image-box-plugin .image-box-container{
+	position: absolute;
+	top: 50%;
+	transform: translate3D(0,-50%,0);
+	-webkit-transform: translate3D(0,-50%,0);
+	width: 100%;
+	text-align: center;
+}
